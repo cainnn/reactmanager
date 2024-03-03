@@ -1,12 +1,11 @@
 import './App.css'
+import {useRef} from "react";
 
 function App() {
-
+const userRef = useRef(null)
 
 	return (
     <div className='App'>
-      <p>欢迎学习react后台课程</p>
-
     </div>
   )
 }
